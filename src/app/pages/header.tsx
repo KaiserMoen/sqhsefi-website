@@ -53,7 +53,7 @@ export default function Header () {
               focus
               className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
                 <div className="rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
-                  <div className="px-5 pt-5 pb-6">
+                  <div className="px-5 pt-5 pb-6 text-black">
                     <div className="flex items-center justify-between">
                       <h1 className="font-bold">MENU</h1>
                       <div className="*-mr-2">
@@ -64,7 +64,7 @@ export default function Header () {
                       </div>
                     </div>
                     <div className="mt-6">
-                      <nav className="grid gap-y-8">
+                      <nav className="grid gap-y-8 ">
                         <Link className = "p-2 hover:bg-gray-100" href="home" >Home</Link>
                         <Link className = "p-2 hover:bg-gray-100" href="about" >About</Link>
                         <Link className = "p-2 hover:bg-gray-100" href="achievements" >Achievement</Link>
