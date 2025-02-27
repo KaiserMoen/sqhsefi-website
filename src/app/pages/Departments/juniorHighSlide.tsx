@@ -16,10 +16,10 @@ export default function JuniorHighSlide() {
                 ></Image>
             </div>
         </div>
-        <div className="text-white w-[100%]  flex-col z-10  ">
-            <div className="flex justify-start flex-col w-[50%] bg-[rgba(0,0,0,0.5)] rounded p-20">
+        <div className="text-white w-[100%] z-10 ">
+            <div className="flex  flex-col w-[100%] md:justify-start md:w-[50%] bg-[rgba(0,0,0,0.5)] rounded p-20">
                <div className="text-4xl font-bold p-2 z-10  md:text-6xl lg:text-8xl border-b-4 border-[#EDCD1F]">
-                JUNIOR HIGH
+                JUNIOR HIGH SCHOOL
                 </div>
                 <div  className=" font-bold p-2 z-10">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum iste placeat velit quod incidunt assumenda unde animi totam voluptates quae! Corporis voluptatum, quam maxime quibusdam placeat libero natus architecto distinctio.

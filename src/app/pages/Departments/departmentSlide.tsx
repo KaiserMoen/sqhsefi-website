@@ -4,7 +4,7 @@ import Image from "next/image";
 import philo from "../../../../public/images/philosophy.webp"
 export default function DepartmentSlide() {
   return ( 
-    <div className="relative  z-0 flex justify-center items-center h-[60vh] w-[100%] ">
+    <div className="relative  z-0 flex justify-center items-center h-[100%] w-[100%] ">
         <div>
             <div>
                 <Image

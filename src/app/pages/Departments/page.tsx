@@ -1,7 +1,4 @@
 "use client"
-import Image from "next/image";
-import test from "../../../../public/images/test.png"
-import philo from "../../../../public/images/philosophy.webp"
 import Slider from "./slider"
 
 export default function Departments() {

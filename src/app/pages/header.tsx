@@ -21,13 +21,13 @@ export default function Header () {
       <Popover
           
         className={
-          "mx-auto flex justify-evenly items-center border-b-2 px-6 py-2 h-24 bg-[#02327a] text-white"
+          "mx-auto flex justify-evenly items-center border-b-2 px-6 py-2 h-19 bg-[#02327a] text-white"
 
         }>
           
           <div className="font-bold ">LOGO</div>
           <div className="grow ">
-            <div className="hidden sm:flex items-center justify-center gap-2 md:gap-12">
+            <div className="hidden text-lg sm:flex items-center justify-center gap-2 md:gap-12">
               <Link className = "hover:text-[#EDCD1F] hover:font-bold" href="home" >Home</Link>
               <Link className = "hover:text-[#EDCD1F] hover:font-bold" href="about" >About</Link>
               <Link className = "hover:text-[#EDCD1F] hover:font-bold" href="achievements" >Achievement</Link>
