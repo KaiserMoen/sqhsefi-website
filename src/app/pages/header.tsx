@@ -8,8 +8,8 @@ import lofow from "../../../public/images/logow.png" ;
 
 export default function Header () {
   return (
-    <div>
-      <div className="w-[100%] h-[20vh] lg:h-[40vh]  relative">
+    <div className="">
+      <div className="w-[100%] h-[20vh] lg:h-[30vh]  relative">
         <Image
           src={lofow}  // Path to the image in the public folder
           alt="A description of the image"  // Alt text for accessibility

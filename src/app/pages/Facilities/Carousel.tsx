@@ -10,7 +10,7 @@ export default function Carousel(){
     const prev = () => setCurr((curr) => (curr === 0 ? data.length -1 : curr - 1))
     const next = () => setCurr((curr) => (curr === data.length -1 ? 0 : curr + 1))
     return(
-        <div className="flex flex-col sm:flex-row justify-evenly border-2 border-[rgb(2,50,122)]  rounded-md">
+        <div className="flex flex-col sm:flex-row justify-evenly">
             
             <div className="flex flex-row sm:w-[65%] sm: m-5">
                 <button onClick={prev}>
@@ -20,7 +20,7 @@ export default function Carousel(){
                     {data.map((data,id) =>(
                         <Link href={data.img} target="_blank" rel="noopener noreferrer">
                             <div className="transition-transform ease-out duration-500" style={{transform: `translateX(-${curr * 100}%)`}}>
-                                <div className="h-[50vh] w-[100vw] z-0" key={id}>
+                                <div className="h-[70vh] w-[100vw] z-0" key={id}>
                                     <Image
                                         src={data.img}
                                         alt="image"
@@ -41,13 +41,13 @@ export default function Carousel(){
                 </button>
             </div>
             <div className="mx-10 sm:w-[25%]">
-                <div className="flex overflow-hidden my-auto h-full rounded-xl">
+                <div className="flex overflow-hidden my-auto h-full rounded-xl ">
                     {data.map((data, id) => (
                         <div  key={id} 
-                            className="w-full flex-shrink-0 transition-transform ease-out duration-500 p-4 mx-auto my-auto" 
+                            className="w-full flex-shrink-0 transition-transform ease-out duration-500 p-4 mx-auto my-auto "  
                             style={{transform: `translateX(-${curr * 100}%)`}}> 
-                            <div className="font-extrabold text-xl md:text-4xl mb-5">{data.name}</div>
-                            <div className="text-[80%]">{data.desc}</div>
+                            <div className="font-bold text-xl md:text-4xl mb-5">{data.name}</div>
+                            <div className="text-[80%] pb-5 border-b-2 border-[rgb(2,50,122)] text-2xl">{data.desc}</div>
                         </div>
                     ))}
                 </div>

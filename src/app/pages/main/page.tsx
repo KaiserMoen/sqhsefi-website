@@ -52,8 +52,8 @@ export default function Main() {
           <h1 className="text-4xl flex justify-center items-center p-4 font-bold">LOOK INTO OUR VALUES</h1>
           <p className="text-lg p-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa animi rem a ut omnis at dolore illo maxime ea praesentium adipisci distinctio voluptatibus cupiditate numquam, unde neque, ipsa illum?</p>
         </div>
-        <div className="pt-5 px-2 pb-5 flex  flex-col  lg:grid lg:grid-cols-3 gap-2 ">
-          <div className=" relative h-[15rem]  lg:h-[20rem]">
+        <div className="pt-5 px-2 pb-5 flex  flex-col  lg:grid lg:grid-cols-3 gap-2 h-full ">
+          <div className=" relative h-[15rem]  lg:h-full">
             <Image
               src={Prof}
               alt="Background Image"
@@ -70,7 +70,7 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <div className=" relative h-[15rem] lg:h-[20rem]">
+          <div className=" relative h-[15rem] lg:h-full">
             <Image
               src={Prof}
               alt="Background Image"
@@ -88,7 +88,7 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <div className=" relative h-[15rem] lg:h-[20rem]">
+          <div className=" relative h-[15rem] lg:h-full">
             <Image
               src={Prof}
               alt="Background Image"
@@ -110,7 +110,7 @@ export default function Main() {
 
       <div className=" flex justify-center items-center flex-col mt-20 mb-20">
         <div className="text-center w-[60%] my-auto mx-auto">
-          <h1 className="font-bold text-6xl p-4 border-b-4 border-[#EDCD1F] ">OUR PARTNERS</h1>
+          <h1 className="font-bold text-3xl md:text-6xl p-4 border-b-4 border-[#EDCD1F] ">OUR PARTNERS</h1>
           <p className="m-2"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Porro similique quibusdam et aliquam, molestias nostrum! Facere culpa consequuntur architecto perspiciatis, omnis, rem consectetur quisquam ab tempora magni maxime est suscipit.</p>
         </div>
         <div className="grid grid-cols-3 gap-5 p-5 w-[70%]">

@@ -20,7 +20,7 @@ export default function DepartmentSlide() {
             <div className="text-4xl font-bold p-2 z-10 md:text-8xl border-b-4 border-[#EDCD1F]">
             DEPARTMENTS
             </div>
-            <div  className=" font-bold p-2 z-10">
+            <div  className="w-[60%] font-bold p-2 z-10 text-lg">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum iste placeat velit quod incidunt assumenda unde animi totam voluptates quae! Corporis voluptatum, quam maxime quibusdam placeat libero natus architecto distinctio.
             </div>
         </div>

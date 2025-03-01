@@ -2,7 +2,7 @@ export const data = [
     {
         id:1,
         name: 'Lab',
-        img: '/images/department.jpg', // Update the path to match your public directory
+        img: '/images/building.webp', // Update the path to match your public directory
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corporis dolorum provident sit delectus repellendus, expedita reiciendis quo! Fuga natus officia voluptas est quasi autem incidunt perspiciatis nesciunt, ipsa nulla!',
     },
     {
