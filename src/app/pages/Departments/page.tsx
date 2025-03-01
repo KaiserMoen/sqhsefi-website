@@ -6,7 +6,7 @@ export default function Departments() {
     <div>
 
     <div className="flex justify-center items-center flex-col h-[100%]">
-      <div>WHAT WE OFFER</div>
+
       <div className="w-[100%] h-[100%]">
         <Slider />
       </div>
