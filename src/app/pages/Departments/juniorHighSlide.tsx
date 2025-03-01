@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 
-import philo from "../../../../public/images/philosophy.webp"
+import philo from "../../../../public/images/department.jpg"
 export default function JuniorHighSlide() {
   return ( 
     <div className="relative  z-0 flex justify-center items-center h-[100%] w-[100%] ">

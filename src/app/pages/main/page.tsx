@@ -12,7 +12,7 @@ export default function Main() {
       <div>
         <Video/>
       </div>
-      <div className="flex  flex-col justify-center items-center rounded border-6 border-[rgb(2,50,122)] p-2 m-20 gap-12 sm:flex-row">
+      <div className="flex  flex-col justify-center items-center rounded border-6 border-[rgb(2,50,122)] p-2 m-20 mt-40 mb-40 gap-12 sm:flex-row">
         <h1 className="font-bold text-4xl  border-r-4 border-[#EDCD1F]  p-4 lg:text-6xl">ABOUT US</h1>
         <div className="md:text-xl sm: flex flex-col ">
           <div>
@@ -110,7 +110,7 @@ export default function Main() {
 
       <div className=" flex justify-center items-center flex-col mt-20 mb-20">
         <div className="text-center w-[60%] my-auto mx-auto">
-          <h1 className="font-bold text-3xl p-4 border-b-2 border-[#EDCD1F] ">OUR PARTNERS</h1>
+          <h1 className="font-bold text-6xl p-4 border-b-4 border-[#EDCD1F] ">OUR PARTNERS</h1>
           <p className="m-2"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Porro similique quibusdam et aliquam, molestias nostrum! Facere culpa consequuntur architecto perspiciatis, omnis, rem consectetur quisquam ab tempora magni maxime est suscipit.</p>
         </div>
         <div className="grid grid-cols-3 gap-5 p-5 w-[70%]">
