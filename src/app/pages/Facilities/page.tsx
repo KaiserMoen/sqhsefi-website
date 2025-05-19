@@ -1,7 +1,4 @@
 import Carousel from "./Carousel";
-import Image from "next/image";
-
-import Background from "../../../../public/images/facilitiesBackground.jpeg";
 export default function Facilities() {
     return (
         <main id="facilities_page">
