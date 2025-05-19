@@ -6,8 +6,6 @@ import Peac from "../../../../public/images/peac.jpg" ;
 import ValueBackground from "../../../../public/images/backgroundvalues.jpeg";
 import Video from "./video";
 import Announcement from "../Announcement/page";
-import AboutBackground from "../../../../public/images/aboutBackground.png";
-
 export default function Main() {
   return (
     <div>
