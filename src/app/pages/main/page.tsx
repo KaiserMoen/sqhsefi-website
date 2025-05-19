@@ -5,14 +5,18 @@ import Apscu from "../../../../public/images/apscu.png";
 import Peac from "../../../../public/images/peac.jpg" ;
 import ValueBackground from "../../../../public/images/backgroundvalues.jpeg";
 import Video from "./video";
+import Announcement from "../Announcement/page";
+import AboutBackground from "../../../../public/images/aboutBackground.png";
+
 export default function Main() {
   return (
     <div>
       <div className="relative z-0">
         <Video/>
       </div>
-      <div className="flex  flex-col justify-center items-center rounded border-6 border-[rgb(2,50,122)] p-2 m-20 mt-40 mb-40 gap-12 sm:flex-row">
-        <h1 id = "about_page" className="font-bold text-4xl  border-r-4 border-[#EDCD1F]  p-4 lg:text-6xl">ABOUT US</h1>
+      
+      <div className="flex  flex-col justify-center items-center rounded  border-[rgb(2,50,122)] p-10  gap-12 xl:flex-row">
+        <h1 id = "about_page" className="font-bold text-4xl m-10 border-r-4 border-[#EDCD1F]  p-4 lg:text-6xl">ABOUT US</h1>
         <div className="md:text-xl sm: flex flex-col ">
           <div>
           <b>Established in 1945</b>, San Quintin High School Educational Foundation, Incorporated has long been a center of academic excellence. This private institution is committed to preparing and training its students to become productive members of local, national and global community.
@@ -36,7 +40,9 @@ export default function Main() {
               </div>
           </div>
         </div>
+        <div className = "bg-[rgba(0,0,0,0.7)] rounded  p-5 text-white"><Announcement/></div>
       </div>
+      
       <div className="bg-[rgb(220,220,221)] p-2 md:p-10 z-0 relative flex flex-col lg:flex-row">
         <Image
           src={ValueBackground}
@@ -115,8 +121,6 @@ export default function Main() {
           </div>
         </div>
       </div>
-
-      
     </div>
 
   );

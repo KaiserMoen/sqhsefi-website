@@ -1,6 +1,8 @@
 "use client"
 import Image from "next/image";
 import departmentBg from "../../../../public/images/senior_high_background.jpg"
+import TrackImageHandler from "./trackImageHandler"
+
 export default function SeniorHighSlide() {
   return ( 
     <div className="relative  z-0 flex justify-center items-center h-[100%] w-[100%]">
@@ -25,10 +27,7 @@ export default function SeniorHighSlide() {
                 </div> 
                 <div className = "p-5 text-2xl font-bold">
                     <p className= "text-xl">We offer the following for Grade 11 - 12:</p>
-                    <p>STEM</p>
-                    <p>ABM</p>
-                    <p>HUMMS</p>
-                    <p>GAS</p>
+                    <TrackImageHandler/>
                 </div>
             </div>
             
