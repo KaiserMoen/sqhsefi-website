@@ -4,7 +4,7 @@ import Image from "next/image";
 import Background from "../../../../public/images/facilitiesBackground.jpeg";
 export default function Facilities() {
     return (
-        <main>
+        <main id="facilities_page">
             <div className="p-4 m-5 text-[rgb(2,50,122)] relative shadow-md shadow-[rgb(2,50,122)]  ">
                 
                 <div className=" flex flex-col justify-between items-center md:flex-row  min-h-[200px] ">

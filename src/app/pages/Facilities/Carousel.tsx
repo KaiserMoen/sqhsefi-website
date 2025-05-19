@@ -18,7 +18,10 @@ export default function Carousel(){
                 </button>
                 <div className="flex relative overflow-hidden">
                     {data.map((data,id) =>(
-                        <Link href={data.img} target="_blank" rel="noopener noreferrer">
+                        <Link key={id}
+                        href={data.img} 
+                        target="_blank" 
+                        rel="noopener noreferrer">
                             <div className="transition-transform ease-out duration-500" style={{transform: `translateX(-${curr * 100}%)`}}>
                                 <div className="h-[70vh] w-[100vw] z-0" key={id}>
                                     <Image
