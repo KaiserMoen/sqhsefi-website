@@ -92,7 +92,7 @@ export default function Main() {
           <h1 className="font-bold text-3xl md:text-6xl p-4 border-b-4 border-[#EDCD1F] ">OUR PARTNERS</h1>
           <p className="m-2"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Porro similique quibusdam et aliquam, molestias nostrum! Facere culpa consequuntur architecto perspiciatis, omnis, rem consectetur quisquam ab tempora magni maxime est suscipit.</p>
         </div>
-        <div className="grid grid-cols-3 gap-5 p-5 w-[70%]">
+        <div className="grid grid-cols-3 lg:gap-5 gap-3 lg:p-5 p-2 lg:w-[70%] w-[100%]">
           <div className="relative border-2 p-2 rounded-lg ">
             <Image
                 src={Peac}
