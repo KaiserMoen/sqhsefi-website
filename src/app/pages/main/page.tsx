@@ -3,7 +3,7 @@ import Image from "next/image";
 import Seameo from "../../../../public/images/seameo.png" ;
 import Apscu from "../../../../public/images/apscu.png";
 import Peac from "../../../../public/images/peac.jpg" ;
-import ValueBackground from "../../../../public/images/backgroundvalues.jpeg";
+import ValueBackground from "../../../../public/images/aboutBackground.png";
 import Video from "./video";
 import Announcement from "../Announcement/page";
 export default function Main() {
@@ -13,7 +13,7 @@ export default function Main() {
         <Video/>
       </div>
       
-      <div className="flex  flex-col justify-center items-center rounded  border-[rgb(2,50,122)] p-10  gap-12 xl:flex-row">
+      <div className="flex  flex-col justify-center items-center rounded  border-[rgb(2,50,122)] m-10  gap-12 xl:flex-row ">
         <h1 id = "about_page" className="font-bold text-4xl m-10 border-r-4 border-[#EDCD1F]  p-4 lg:text-6xl">ABOUT US</h1>
         <div className="md:text-xl sm: flex flex-col ">
           <div>
@@ -38,14 +38,14 @@ export default function Main() {
               </div>
           </div>
         </div>
-        <div className = "bg-[rgba(0,0,0,0.7)] rounded  p-5 text-white"><Announcement/></div>
+        <div className = "rounded  text-white"><Announcement/></div>
       </div>
       
       <div className="bg-[rgb(220,220,221)] p-2 md:p-10 z-0 relative flex flex-col lg:flex-row">
         <Image
           src={ValueBackground}
           alt="Background Image for Values"
-          quality={100}
+          quality={90}
           placeholder="blur"
           fill
           sizes="100vh"

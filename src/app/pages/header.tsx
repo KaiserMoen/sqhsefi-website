@@ -18,14 +18,15 @@ export default function Header () {
           className="object-cover"
         />
       </div>
+      
       <Popover
           
         className={
-          "mx-auto flex justify-evenly items-center border-b-2 px-6 py-2 h-19 bg-[#02327a] text-white"
+          "mx-auto flex justify-evenly items-center border-b-2 px-6 py-2 h-19 bg-[#1C415B] text-white"
 
         }>
-          <div className="grow ">
-            <div className="hidden text-lg sm:justify-between sm:flex items-center md:justify-center gap-2 md:gap-12 ">
+          <div className="">
+            <div className="hidden text-lg sm:justify-between sm:flex items-center md:justify-center gap-2 md:gap-12 font-bold h-8">
               <Link className = "hover:text-[#EDCD1F] hover:font-bold text-xl" href="/" >Home</Link>
               <Link className = "hover:text-[#EDCD1F] hover:font-bold text-xl" href="/#about_page" >About</Link>
               <Link className = "hover:text-[#EDCD1F] hover:font-bold text-xl" href="/#department_page" >Departments</Link>
